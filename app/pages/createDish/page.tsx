@@ -45,6 +45,7 @@ const Page = () => {
         <button onClick={() => setQuantity(prev => !prev)} className='bg-blue-500 text-white p-2'>
           {quantity ? 'In Stock' : 'Out of Stock'}
         </button>
+        
       </div>
       <button onClick={handleAddDish} className='bg-white text-black font-bold w-1/12 shadow-md shadow-white border-red-500'>
         Add
