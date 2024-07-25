@@ -57,6 +57,8 @@ const Page = () => {
          <button onClick={()=>setReguser(prev=>!prev)}>signIn</button>
      </div>
        )}
+
+       
     </div>
   )
 }
