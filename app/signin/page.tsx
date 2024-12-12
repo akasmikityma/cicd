@@ -45,6 +45,7 @@ const Page = () => {
          }}/>
  
          <button onClick={async () => {
+          
              const res = await signIn("credentials", {
                  name:name,
                  username: username,
